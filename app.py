@@ -15,5 +15,8 @@ else:
 
 
 app_log = logbook.Logger('App')
+
+# actions are:
+# notice / info / trace / warn / error / critical
 app_log.notice('some notice message')
 app_log.error('some error message')
